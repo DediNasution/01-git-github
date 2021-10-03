@@ -1,0 +1,27 @@
+#GIT DAN GITHUB
+##Penjelasan Singkat Tentang Git dan Github
+Git dan GitHub merupakan dua platform yang didirikan oleh satu perusahaan dengan tujuan sama serta fitur yang berbeda. Namun kedua platform ini sangat membantu pekerjaan programmer dalam menyusun kode script secara tim. Seluruh pekerjaan juga dapat dipantau dan dievaluasi dengan mudah karena penggunaan kontrol sistem.
+
+Git merupakan software berbasis Version Control System (VCS) yang bertugas untuk mencatat perubahan seluruh file atau repository suatu project. Developer software biasa menggunakan Git untuk distributed revision (VCS terdistribusi), hal ini bertujuan untuk menyimpan database tidak hanya ke satu tempat. Namun semua orang yang terlibat dalam penyusunan kode dapat menyimpan database ini.
+
+GitHub merupakan layanan cloud yang berguna untuk menyimpan dan mengelola sebuah project yang dinamakan repository (repo git). Cara kerja pada GitHub harus terkoneksi pada internet sehingga tidak perlu meng-install sebuah software ke dalam perangkat keras. Hal ini memberikan keringanan penyimpanan komputer yang kita gunakan karena file project tersimpan oleh cloud GitHub.
+
+##Instalasi Git di Windows
+1. Download Git di: https://git-scm.com/downloads
+2. Double click pada file yang di download, maka akan muncul licence, dan click next.
+3. Pada halaman berikutnya "Select Components" jika ingin menambahlan icon Git pada Desktop, maka silahkan click/centang pada "Additional icon", adapun untuk pilihan yang lainnya biarkan saja pada pilihan default.
+4. Selanjutnya "Choosing the default editor used by git", silahkan pilih code editor yang akan digunakan sebagai editor default git.
+5. Selanjutnya pada "Adjusting the name of the initial branch in new repositories", pilihlah pilihan pertama "Let git decide".
+6. Halaman berikutnya "Adjusting your PATH environment" pilihlah pilihan kedua "Git from the command line and also from 3rd-party software".
+7. Selanjutnya "Choosing the SSH executable", pilihlah "Use bundled OpenSSH".
+8. Selanjutnya pada "Choosing HTTPS transport backend", pilihlah "Use the OpenSSL lybrary".
+9. Lalu pada "Configuring the line ending conversion", pilih "checkout Windows-style, commit Unix-style line Endings".
+10. Halaman berikutnya "Configuring the terminal emulator to use with Git Bash", pilih "Use MinTTY (The default terminal of MSYS2".
+11. Selanjutnya "Choose the default behavior of 'git pull'", pilihlah "Default (fast-forward merge)".
+12. Berikutnya "Choose a credential helper", pilihlah pilihan kedua "Git Credential Manager".
+13. Lalu "Configuring extra option", Centang pada "Enable file system catching".
+14. Selanjutnya "Configuring experimental option", centang pada kedua pilihan.
+15. Setelah itu click "install", dan tunggu sampaui proses Instalasi selesai.
+16. Jika selesai akan muncul dialog pemberitahuan. Klik pada Finish.
+17. Untuk menjalankan, dari Start menu, ketikkan "Git", akan muncul beberapa pilihan. Pilih "Git Bash" atau "Git GUI".
+18. Untuk mencoba dari command prompt, masuk ke command prompt, setelah itu eksekusi "git --version" untuk melihat apakah sudah terinstall atau belum. Jika sudah terinstall dengan benar, maka akan muncul versi dari Git yang kita pakai serta jenis sistem Operasi yang kita pakai.
